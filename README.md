@@ -1,4 +1,4 @@
-# Project Title
+# Just learn node, bro
 
 This is an incomplete node app for my buddy Adam to use for learning node development. Most importantly, it highlights his extreme love for Nickelback.
 
