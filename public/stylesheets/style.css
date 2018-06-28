@@ -1,0 +1,7 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: linear-gradient(#000, #fff);
+  background-size: auto;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,21 @@
+extends layout
+block content
+  .row
+    label.required(for='name') Your name:
+    br
+    input#name.input(name='name', type='text', value='', size='30')
+    br
+    span#name_validation.error_message
+  .row
+    label.required(for='email') Your email:
+    br
+    input#email.input(name='email', type='text', value='', size='30')
+    br
+    span#email_validation.error_message
+  .row
+    label.required(for='message') Your message:
+    br
+    textarea#message.input(name='message', rows='7', cols='30')
+    br
+    span#message_validation.error_message
+  input#submit_button(type='submit', value='Send email')

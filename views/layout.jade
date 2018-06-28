@@ -1,0 +1,43 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    style.
+      body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      }
+      .topnav {
+      overflow: hidden;
+      background-color: #333;
+      }
+      .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      }
+      .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+      }
+      .topnav a.active {
+      background-color: #4CAF50;
+      color: white;
+      }
+  body
+    .topnav
+      a.active(href='/') Home
+      a(href='/news') News
+      a(href='/contact') Contact
+      a(href='/about') About
+      a(href='/donate') Donate
+      img(src='/images/canada.jpg', style='height: 50px; width:70px; float: right;')
+      h4(style=" color: #ffffff; float: right; position: relative; padding-right: 20px;") Support Canada!
+    block content
+
+  
